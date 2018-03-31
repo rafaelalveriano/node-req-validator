@@ -55,6 +55,11 @@ command: sudo npm install node-req-validator
     validator.isCpf(cpf,message);
     validator.isCnpj(cnpj,message);
     validator.isTelefone(tel, message);
+    
+    /* validate */
+    if (validator.isInvalid()) 
+		    return  res.status(400).send(validator.errors);
+    
 
 
 # #Generate scaffold rules

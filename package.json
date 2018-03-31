@@ -1,0 +1,32 @@
+{
+  "name": "node-req-validator",
+  "version": "1.0.0",
+  "description": "The purpose of this module is to validate the requests sent by fornt-end",
+  "main": "./lib/Validator.js",
+  "bin": {
+    "node-req-validator": "bin/node_req_validator.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/movcode/node-req-validator.git"
+  },
+  "keywords": [
+    "Validator",
+    "input",
+    "node",
+    "express",
+    "validate"
+  ],
+  "author": "Rafael Augusto <movcode@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/movcode/node-req-validator/issues"
+  },
+  "homepage": "https://github.com/movcode/node-req-validator#readme"
+}

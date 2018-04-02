@@ -25,6 +25,10 @@
   ],
   "author": "Rafael Augusto <movcode@gmail.com>",
   "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-latest": "^6.16.0"
+  },
   "bugs": {
     "url": "https://github.com/movcode/node-req-validator/issues"
   },
